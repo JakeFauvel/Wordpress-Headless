@@ -6,6 +6,7 @@
  */
 
 require ABSPATH . WPINC . '/option.php';
+const HEADLESS_FRONTEND_URL = 'http://localhost:8080/';
 
 /**
  * Convert given MySQL date string into a different format.
@@ -61,12 +62,13 @@ function mysql2date( $format, $date, $translate = true ) {
  * If $gmt is set to either '1' or 'true', then both types will use GMT time.
  * if $gmt is false, the output is adjusted with the GMT offset in the WordPress option.
  *
+ * @param string $type Type of time to retrieve. Accepts 'mysql', 'timestamp',
+ *                       or PHP date format string (e.g. 'Y-m-d').
+ * @param int|bool $gmt Optional. Whether to use GMT timezone. Default false.
+ * @return int|string Integer if $type is 'timestamp', string otherwise.
+ * @throws Exception
  * @since 1.0.0
  *
- * @param string   $type Type of time to retrieve. Accepts 'mysql', 'timestamp',
- *                       or PHP date format string (e.g. 'Y-m-d').
- * @param int|bool $gmt  Optional. Whether to use GMT timezone. Default false.
- * @return int|string Integer if $type is 'timestamp', string otherwise.
  */
 function current_time( $type, $gmt = 0 ) {
 	// Don't use non-GMT timestamp, unless you know the difference and really need to.
