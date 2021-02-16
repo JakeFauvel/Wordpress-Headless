@@ -1,17 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1 class="brand-header">Example Brand Name</h1>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import * as api from './utils/api-calls';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // Components
+  },
+
+  mounted() {
+    this.makeRequest('/teppichfliesen-products-de');
+  }
+  ,
+  methods: {
+    async makeRequest(resourcePath) {
+      console.log(await api.getRequest(resourcePath));
+    }
   }
 }
 </script>
