@@ -1,44 +1,32 @@
 <template>
   <div id="app">
-    <h1 class="brand-header">{{ siteConfig.siteName }}</h1>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view/>
   </div>
 </template>
 
-<script>
-import * as API from './utils/api-calls';
-import Config from './mixins/config';
+<style lang="scss">
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 
-export default {
-  name: 'App',
-  mixins: [Config],
-  components: {
-    // Components
-  },
+#nav {
+  padding: 30px;
 
-  data() {
-    return {
-      siteConfig: null
-    }
-  },
+  a {
+    font-weight: bold;
+    color: #2c3e50;
 
-  beforeMount() {
-    this.siteConfig = window.globalConfig;
-  },
-
-  mounted() {
-    console.log('Site config:', this.siteConfig);
-    this.makeRequest('/teppichfliesen-products-de');
-    this.makeRequest('/site-details-de');
-    this.makeRequest('/service-menu-de');
-  },
-
-  methods: {
-    async makeRequest(resourcePath) {
-      console.log(resourcePath, await API.getRequest(resourcePath));
+    &.router-link-exact-active {
+      color: #42b983;
     }
   }
 }
-</script>
-<style lang="scss" scoped>
-  @import './styles/main.scss';
 </style>
