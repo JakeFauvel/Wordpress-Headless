@@ -3,6 +3,7 @@ export default {
         return {
             globalConfig: {
                 siteName: 'SITE NAME',
+                siteLogo: 'http://dev.schatex.com/wp-content/uploads/2020/05/logo.png',
                 languages: {
                     de: {
                         label: 'Deutsch',

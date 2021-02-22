@@ -14,8 +14,8 @@
   .left {
     width: 35%;
 
-    .brand-name {
-      color: map-get($brand-colors, brand-color-one)
+    .logo {
+      max-width: 250px;
     }
   }
 
@@ -25,10 +25,23 @@
     justify-content: flex-end;
     align-items: center;
 
-    a {
-      margin-right: 20px;
-      text-decoration: none;
-      color: map-get($site-colors, text-dark)
+    .hamburger-container {
+      @media only screen and (min-width: 1024px) {
+        display: none;
+      }
+    }
+
+    .desktop-nav {
+      display: none;
+      @media only screen and (min-width: 1024px) {
+        display: initial;
+      }
+
+      a {
+        margin-right: 20px;
+        text-decoration: none;
+        color: map-get($site-colors, text-dark)
+      }
     }
   }
 }
