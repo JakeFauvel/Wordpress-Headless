@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
-    <h1>Production page</h1>
+  <div class="production">
+    <h1>PRODUCTION</h1>
   </div>
 </template>

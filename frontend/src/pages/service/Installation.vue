@@ -1,5 +1,5 @@
 <template>
   <div class="about">
-    <h1>Installation page</h1>
+    <h1>INSTALLATION PAGE</h1>
   </div>
 </template>

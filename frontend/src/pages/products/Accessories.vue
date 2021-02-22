@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
-    <h1>Accessories page</h1>
+  <div class="accessories">
+    <h1>ACCESSORIES</h1>
   </div>
 </template>

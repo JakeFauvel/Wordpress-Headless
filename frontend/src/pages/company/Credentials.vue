@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
-    <h1>Credentials page</h1>
+  <div class="credentials">
+    <h1>CREDENTIALS</h1>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
   <div class="about">
-    <h1>Care page</h1>
+    <h1>CARE INSTRUCTIONS</h1>
   </div>
 </template>

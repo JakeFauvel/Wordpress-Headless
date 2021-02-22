@@ -5,11 +5,8 @@
 </template>
 
 <script>
-import siteConfig from '../mixins/config';
-
 export default {
   name: 'Home',
-  mixins: [siteConfig],
 
   beforeMount() {
     this.siteConfig = window.globalConfig;
