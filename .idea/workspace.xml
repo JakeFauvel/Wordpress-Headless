@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d66f9282-fa05-48ee-a61c-84df32cbfb5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Contact.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Imprint.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/News.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Privacy.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Sales.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/company/Credentials.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/company/Production.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/products/Accessories.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/products/Downloads.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/products/Teppichdielen.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/products/Teppichfliesen.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/service/Care.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/service/FAQs.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/service/Installation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/company/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +41,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/pages/service" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/pages/service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/pages" />
+      <recent name="$PROJECT_DIR$/frontend/src/pages/company" />
+      <recent name="$PROJECT_DIR$/frontend/src/pages/products" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
