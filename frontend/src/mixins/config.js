@@ -25,8 +25,8 @@ export default {
             }
         }
     },
+
     created() {
-        console.log('CREATED', this.globalConfig);
         window.globalConfig = this.globalConfig;
     }
 }

@@ -7,7 +7,24 @@
     <router-view/>
   </div>
 </template>
+<script>
+import siteConfig from './mixins/config';
 
+export default {
+  name: 'Home',
+  mixins: [siteConfig],
+
+  beforeMount() {
+    this.siteConfig = window.globalConfig;
+  },
+
+  data() {
+    return {
+      siteConfig: null
+    }
+  }
+}
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
