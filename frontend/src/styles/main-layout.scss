@@ -1,0 +1,34 @@
+@import 'colors';
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: map-get($site-colors, text-dark);
+}
+
+.nav {
+  display: flex;
+  align-content: space-between;
+
+  .left {
+    width: 35%;
+
+    .brand-name {
+      color: map-get($brand-colors, brand-color-one)
+    }
+  }
+
+  .right {
+    width: 65%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: map-get($site-colors, text-dark)
+    }
+  }
+}

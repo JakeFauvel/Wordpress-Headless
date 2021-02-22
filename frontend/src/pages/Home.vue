@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div>{{ siteConfig.siteName }}</div>
+    <h1>HOMEPAGE CONTENT</h1>
   </div>
 </template>
 
@@ -19,3 +19,6 @@ export default {
   }
 }
 </script>
+<style lang="scss" scoped>
+  @import '../styles/pages/home';
+</style>
